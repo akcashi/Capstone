@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Capstone</string>
+    <string name="success_login_msg" />
+    <string name="error_login_msg" />
+</resources>
