@@ -16,7 +16,13 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".register"></activity>
+        <activity android:name=".register" />
+        <activity android:name=".Profile" />
+        <activity android:name=".tagaloghistory" />
+        <activity android:name=".choose" />
+        <activity android:name=".tagalogcategories" />
+        <activity android:name=".TagalogNumericals" />
+        <activity android:name=".TagalogQuiz"></activity>
     </application>
 
 </manifest>

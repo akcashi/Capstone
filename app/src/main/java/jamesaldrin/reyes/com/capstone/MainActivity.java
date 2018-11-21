@@ -1,5 +1,6 @@
 package jamesaldrin.reyes.com.capstone;
 
+import android.content.Intent;
 import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.app.AlertDialog;
@@ -37,6 +38,9 @@ public class MainActivity extends AppCompatActivity {
                             Toast.makeText(MainActivity.this,
                                     R.string.success_login_msg,
                                     Toast.LENGTH_SHORT).show();
+                            Intent i = null;
+                            i = new Intent(MainActivity.this, choose.class);
+                            startActivity(i);
                         } else {
                             Toast.makeText(MainActivity.this,
                                     R.string.error_login_msg,
